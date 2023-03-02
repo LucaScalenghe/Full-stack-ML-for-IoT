@@ -1,0 +1,16 @@
+@host = #add you host here maybe with or without ""
+
+###
+GET {{host}}/status
+
+###
+GET {{host}}/devices
+
+###
+GET {{host}}/device/0x8b84a2a23fd8
+
+###
+GET {{host}}/device/0xd1b389213477?from=1673685488568&to=1674393590601
+
+###
+DELETE {{host}}/device/0xe657ae182464
